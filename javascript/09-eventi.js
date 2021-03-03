@@ -1,5 +1,6 @@
-function clickParagrafo() {
-    console.log('click!');
+function clickParagrafo(event) {
+    event.stopPropagation();    
+    console.log('click!', event);
 }
 
 var titolo = document.getElementById('titolo');
@@ -14,4 +15,7 @@ titolo.addEventListener('mouseout', (evento) => {
 
 document.body.addEventListener('keypress', (evento) => {
     console.log('premuto il tasto', evento.key);
+});
+document.body.addEventListener('click', (evento) => {
+    console.log('cliccato il body', evento);
 });
