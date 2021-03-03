@@ -22,3 +22,7 @@ f2();
 // lambda expression (equivalente all'anonymous function)
 var f3 = () => console.log('dentro la funzione f3');
 f3();
+
+var f4 = () => {
+    console.log('dentro la funzione f4');
+}
