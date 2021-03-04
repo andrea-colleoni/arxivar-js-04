@@ -16,3 +16,6 @@
 - Gestione degli errori
 
 - Esercizio: costruzione di un timer
+
+## Giorno 2
+
