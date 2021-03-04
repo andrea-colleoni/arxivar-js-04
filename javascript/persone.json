@@ -1,0 +1,21 @@
+[{
+   "nome": "Mario",
+   "cognome": "Rossi",
+   "email": "mario@gmail.com",
+   "altezza": 175
+},{
+    "nome": "Anna",
+    "cognome": "Verdi",
+    "email": "anna@gmail.com",
+    "altezza": 170
+ },{
+    "nome": "Luigi",
+    "cognome": "Bianchi",
+    "email": "luigi@gmail.com",
+    "altezza": 181
+ },{
+    "nome": "Paola",
+    "cognome": "Neri",
+    "email": "paola@gmail.com",
+    "altezza": 168
+ }]

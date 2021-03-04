@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Corso JS</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="15-jquery.css">
+  </head>
+  <body>
+    <main class="container">
+      <h1>Uso di librerie: jQuery e Bootstrap</h1>
+
+      <p id="btnAjax" class="btn btn-primary">
+        Clicca qui per avviare una request AJAX
+      </p>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Indirizzo email</th>
+            <th>Altezza in cm.</th>
+          </tr>
+        </thead>
+        <tbody id="corpoTabella"></tbody>
+      </table>
+
+      <a href="/">Ritorna all'indice</a>
+    </main>
+    <!-- l'ordine di caricamento è IMPORTANTE!!! -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="15-jquery.js"></script>
+  </body>
+</html>
